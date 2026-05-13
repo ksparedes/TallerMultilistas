@@ -3,9 +3,10 @@ app=Flask(__name__)
 @app.route('/')
 def root():
    markers=[
+      #-74,815546","10,977961
    {
-   'lat':0,
-   'lon':0,
+   'lat':10.977961,
+   'lon':-74.815546,
    'popup':'This is the middle of the map.'
     }
    ]
